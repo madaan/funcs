@@ -1,0 +1,15 @@
+diff --git a/hello.cpp b/hello.cpp
+index d70162a..ed91a6d 100644
+--- a/hello.cpp
++++ b/hello.cpp
+@@ -1,6 +1,10 @@
+ //sg
+ #include<iostream>
+ using namespace std;
++int add(int a, int b) {
++    return a + b;
++}
++
+ int main() {
+     cout << "Hi";
+     return 0;
