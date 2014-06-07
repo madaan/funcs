@@ -10,12 +10,12 @@ int div(int a, int b) {
 	if (b != 0){
     	return a / b;
 	}
-	
+
 	else return INF;
-	
+
 }
 
-int mul (int a,int b)
+int mul (int a,int b) // multiplies two nmbrs
 {
     return a*b;
 }
