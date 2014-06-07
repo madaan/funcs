@@ -1,12 +1,18 @@
 //sg
 #include<iostream>
+#define INF 100000;
 using namespace std;
 int add(int a, int b) {
     return a + b;
 }
 
 int div(int a, int b) {
-    return a / b;
+	if (b != 0){
+    	return a / b;
+	}
+	
+	else return INF;
+	
 }
 
 int main() {
